@@ -1,8 +1,10 @@
 package dongtai.kunnan;
 
+import java.util.zip.CheckedOutputStream;
+
 public class BianJi72 {
     public static void main(String[] args) {
-
+        System.out.println("测试");
     }
     public int minDistance(String word1, String word2) {
         int m=word1.length();
@@ -24,6 +26,7 @@ public class BianJi72 {
             }
         }
         return dp[m][n];
+
 
 
 
